@@ -1,3 +1,7 @@
+package org.example;
+
+import java.util.ArrayList;
+
 class GestorEstudiantes {
     private ArrayList<Estudiante> lista = new ArrayList<>();
 

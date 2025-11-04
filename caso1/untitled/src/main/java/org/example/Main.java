@@ -4,18 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("--- Lector de Datos Simples con Scanner ---");
-
-        System.out.print("Ingrese su nombre completo: ");
+        System.out.print("Ingrese su nombre  ");
         String nombre = scanner.nextLine();
 
-        System.out.print("Ingrese su edad (número entero): ");
+        System.out.print("Ingrese su edad  ");
         int edad = scanner.nextInt();
 
-        System.out.print("Ingrese su sueldo (ej. 1500.50): ");
+        System.out.print("Ingrese su sueldo  ");
         double sueldo = scanner.nextDouble();
 
         scanner.close();
